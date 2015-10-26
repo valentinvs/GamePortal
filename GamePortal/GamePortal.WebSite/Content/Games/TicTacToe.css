@@ -1,0 +1,29 @@
+﻿#gameContainer {
+    width: 650px;
+    height: 620px;
+    background-color: lightgray;
+}
+
+.cell {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.o {
+    background-image: url('../../images/Games/TicTacToe/o.png');
+}
+
+.x {
+    background-image: url('../../Images/Games/TicTacToe/x.png');
+}
+
+#TicTacToe {
+    background-image: url('../../Images/Games/TicTacToe/Icon.png');
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
