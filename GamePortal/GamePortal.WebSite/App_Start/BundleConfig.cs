@@ -19,6 +19,7 @@ namespace GamePortal.WebSite
                         "~/Scripts/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/Games/TicTacToe").Include("~/Scripts/Games/TicTacToe.js"));
+            bundles.Add(new ScriptBundle("~/bundles/Games/Gibbet").Include("~/Scripts/Games/Gibbet.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
@@ -27,6 +28,7 @@ namespace GamePortal.WebSite
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
             bundles.Add(new StyleBundle("~/Content/Games/TicTacToe").Include("~/Content/Games/TicTacToe.css"));
+            bundles.Add(new StyleBundle("~/Content/Games/Gibbet").Include("~/Content/Games/Gibbet.css"));
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
                         "~/Content/themes/base/jquery.ui.resizable.css",
