@@ -13,5 +13,10 @@ namespace GamePortal.WebSite.Controllers
         {
             return View();
         }
+
+        public ActionResult Gibbet()
+        {
+            return View();
+        }
     }
 }

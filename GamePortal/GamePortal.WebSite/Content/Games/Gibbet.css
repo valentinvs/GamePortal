@@ -1,0 +1,36 @@
+﻿#Gibbet {
+    width: 200px;
+    height: 200px;
+}
+
+#GameContainer {
+    text-align: center;
+}
+
+.disabled {
+    background-color: gray;
+}
+
+.allowedLetter {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px 5px 0px;
+    display: inline-block;
+}
+
+    .allowedLetter:hover {
+        background-color: green;
+    }
+
+.letter, .space {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+
+.space {
+    border: none;
+}

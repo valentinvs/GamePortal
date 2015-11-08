@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Gibbet";
+}
+
+<h2>Gibbet</h2>
+
+<div id="GameContainer">
+    <div id="Gibbet"></div>
+    <div id="AllowedLettersContainer"></div>
+    <div id="LettersToGuessContainer"></div>
+</div>
+
+@section scripts {
+    @Scripts.Render("~/bundles/Games/Gibbet")
+}
